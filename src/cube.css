@@ -9,8 +9,8 @@
     gap: 4px;
     grid-template-rows: repeat(3, minmax(0, 1fr));
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    width: 9rem;
-    height: 9rem;
+    min-width: 6em;
+    min-height: 6em;
     background-color: transparent;
     margin: 2px;
 }
