@@ -14,7 +14,7 @@ class Face {
             const sticker = document.createElement('div');
             sticker.className = 'cube-sticker';
             sticker.style.backgroundColor = this.array[i];
-            sticker.textContent = i;
+            // sticker.textContent = i;
             element.appendChild(sticker);
         }
 
